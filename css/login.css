@@ -1,0 +1,227 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.h4 {
+  color: #0558ee;
+}
+
+.text-primary {
+  color: #38b6ff; /* Cor azul */
+}
+
+.vh-100 {
+  min-height: 100vh;
+}
+
+.card {
+  border-radius: 1.25rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  padding: 2rem;
+}
+
+.logo-container img {
+  width: 3em; /* Tamanho do logo */
+}
+
+.btn-primary {
+  background-color: #38b6ff;
+  border-color: #38b6ff;
+  font-weight: bold;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #2a9df4;
+  border-color: #2a9df4;
+}
+
+.btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(56, 182, 255, 0.5);
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.text-muted {
+  color: #6c757d !important;
+  text-decoration: none;
+}
+
+.text-muted:hover {
+  text-decoration: underline;
+}
+
+.card-title {
+  color: #333;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.card-title i {
+  color: #38b6ff;
+  margin-right: 10px;
+}
+
+
+.text-blue {
+  color: #38b6ff; /* Cor azul */
+}
+
+.vh-100 {
+  min-height: 100vh;
+}
+
+.card {
+  border-radius: 1rem;
+}
+
+.form-bg {
+  background-color: #f8f9fa;
+  border-radius: 0.5rem;
+  padding: 15px;
+}
+
+.form-container {
+  font-family: 'Raleway', sans-serif;
+  padding: 15px;
+  position: relative;
+  z-index: 1;
+}
+
+.form-container:before {
+  content: '';
+  background-color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 20%;
+  bottom: 20%;
+  z-index: -1;
+}
+
+.form-container .title {
+  color: #333;
+  background-color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 10px 30px;
+  margin: 0;
+  display: inline-block;
+  clip-path: polygon(0 0, 80% 0%, 100% 100%, 0% 100%);
+}
+
+.form-container .title i {
+  color: #38b6ff;
+  margin-right: 10px;
+}
+
+.form-horizontal {
+  background: #fff;
+  padding: 30px 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-horizontal .form-group {
+  margin-bottom: 20px;
+}
+
+.form-horizontal .form-group label {
+  font-size: 13.5px;
+  text-transform: uppercase;
+}
+
+.form-horizontal .form-group label.check-label {
+  text-transform: none;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.form-horizontal .form-control {
+  color: #111;
+  background: #F5F5F5;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  height: 33px;
+  padding: 6px 12px;
+  border-radius: 0;
+  border: 1px solid #e7e7e7;
+  box-shadow: none;
+}
+
+.form-horizontal .form-control:focus {
+  background-color: rgba(216, 63, 88, 0.1);
+  box-shadow: none;
+}
+
+.form-horizontal .checkbox {
+  height: 14px;
+  width: 14px;
+  margin-right: 8px;
+  border: 1px solid #999;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  transition: all 0.3s ease;
+}
+
+.form-horizontal .checkbox:before {
+  content: '';
+  height: 7px;
+  width: 14px;
+  border-bottom: 3px solid #38b6ff;
+  border-left: 3px solid #38b6ff;
+  opacity: 0;
+  transform: rotate(-45deg);
+  position: absolute;
+  left: 1px;
+  top: 0;
+  transition: all 0.3s ease;
+}
+
+.form-horizontal .checkbox:checked {
+  border-color: #38b6ff;
+}
+
+.form-horizontal .checkbox:checked:before {
+  opacity: 1;
+}
+
+.form-horizontal .checkbox:not(:checked):before {
+  opacity: 0;
+}
+
+.form-horizontal .checkbox:focus {
+  outline: none;
+}
+
+.form-horizontal .signup {
+  color: #fff;
+  background-color: #38b6ff;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 0;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.form-horizontal .signup:hover,
+.form-horizontal .signup:focus {
+  background-color: #483bd5;
+}
